@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import seaborn as sns
 
-
-# load the .env file variables
 load_dotenv()
 client_id = os.environ.get("CLIENT_ID")
 client_secret = os.environ.get("CLIENT_SECRET")
@@ -54,3 +52,5 @@ plt.ylabel('Popularidad (0 a 100)')
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+#######
+####No hay una relación directa entre la duración de las canciones y la popularidad###
