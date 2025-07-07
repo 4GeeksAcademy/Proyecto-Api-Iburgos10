@@ -23,7 +23,7 @@ for i, track in enumerate(top_tracks['tracks'][:10], 1):
     
     print(f"{i}. {nombre} | Duración: {duracion_min:.2f} min | Popularidad: {popularidad}/100")
 
-###################################################################
+##############################################################
 datos_canciones = []
 
 for track in top_tracks['tracks'][:10]:
